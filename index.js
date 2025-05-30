@@ -1,4 +1,4 @@
-let click = () =>{
+let clickAction = () =>{
     console.log('click');
     let a=parseInt(document.getElementById('a').value);
     let b=parseInt(document.getElementById('b').value);
