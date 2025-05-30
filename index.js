@@ -1,4 +1,5 @@
 let click = () =>{
+    console.log('click');
     let a=parseInt(document.getElementById('a').value);
     let b=parseInt(document.getElementById('b').value);
     let l=document.getElementById('l').value.split(',');   //l will be having 1,2,.. as a string. To convert string to an array we use split. 
